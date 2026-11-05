@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "Analysis code for: Circadian repressor collapse and primed senescence enhancers in the aged human muscle fibro-adipogenic niche"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Haixiang
+    affiliation: "Department of Geriatrics, Affiliated Hospital of Integrated Traditional Chinese and Western Medicine, Nanjing University of Chinese Medicine"
+  - family-names: Liu
+    given-names: Tao
+    affiliation: "School of Chinese Medicine, Nanjing University of Chinese Medicine"
+year: 2026
+version: 1.0.0
+license: MIT
