@@ -1,6 +1,7 @@
-# Analysis code — Circadian repressor collapse and primed senescence enhancers in the aged human muscle fibro-adipogenic niche
+# Analysis code — Circadian repressor collapse primes the aged muscle niche
 
-Code accompanying the manuscript submitted to *BMC Medical Genomics*.
+Analysis code for the manuscript of the same title; citation details will be added once the
+article is published.
 
 The study integrates single-nucleus ATAC and RNA sequencing of human hamstring muscle
 from five young and five aged male donors (GSE268953) to ask which regulatory elements
