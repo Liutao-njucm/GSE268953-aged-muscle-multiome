@@ -1,9 +1,10 @@
 """
 46_split_table_s3.py
-Split the 44 MB Table_S3_DA_peaks_and_annotation.xlsx into three standalone
-workbooks (S3a / S3b / S3c) because BMC caps individual file uploads.
-Rebuilds each part from the source CSVs (identical content to script 38),
-leaving the original combined workbook untouched.
+Split the 44 MB Table_S3 workbook into three parts (S3a/S3b/S3c) for smaller uploads.
+"""
+# Rebuilds each part from the source CSVs (identical content to script 38),
+# leaving the original combined workbook untouched. The two largest parts are
+# additionally provided as compressed CSV.
 """
 import os
 import pandas as pd
