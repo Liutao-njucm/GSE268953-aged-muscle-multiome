@@ -45,7 +45,7 @@ Run in the order given in `ANALYSIS_ORDER.md`.
 | `30_tf_target_direction.py` | 30_tf_target_direction.py Directional test of TF target sets against cell-type DEG tables. Complements the (underpowered) donor-level ULM regulon scor |
 | `30b_tf_target_lfc_shift.py` | 30b_tf_target_lfc_shift.py Threshold-free complement to 30_*: for each TF, compare the log2FC distribution of its CollecTRI target genes against all n |
 | `38_build_supp_tables.py` | Build submission-ready supplementary tables Table S1-S12 as multi-sheet xlsx. Each workbook is named by its in-text identifier so figure/table callout |
-| `46_split_table_s3.py` | 46_split_table_s3.py Split the 44 MB Table_S3_DA_peaks_and_annotation.xlsx into three standalone workbooks (S3a / S3b / S3c) because BMC caps individu |
+| `46_split_table_s3.py` | 46_split_table_s3.py Split the 44 MB Table_S3 workbook into three parts (S3a/S3b/S3c) for smaller uploads. |
 | `54_add_prg4.R` | compute per-donor FAP CPM10k for PRG4 (+ validation genes) |
 | `59_plasma_biomarker.py` | map the FAP aging signature onto a population plasma proteome. Plasma source : Lehallier et al., Nat Med 2019 (SomaScan, 4,263 donors, 2,925 assays; l |
 | `59a_explore_plasma.py` | explore intersection of the FAP SASP/ECM signature with the Lehallier 2019 plasma proteome (SomaScan, 4,263 donors, 2,925 proteins). |
